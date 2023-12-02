@@ -1,0 +1,83 @@
+{
+    "units": [
+        {
+            "name": "meter",
+            "aliases": ["m"],
+            "intermediate": false
+        },
+        {
+            "name": "kilometer",
+            "aliases": ["km"],
+            "intermediate": false
+        },
+        {
+            "name": "Vietnamese Meter",
+            "aliases": ["vnm", "met"],
+            "intermediate": false
+        },
+        {
+            "name": "Celsius",
+            "aliases": ["C"],
+            "intermediate": false
+        },
+        {
+            "name": "Fahrenheit",
+            "aliases": ["F"],
+            "intermediate": false
+        },
+        {
+            "name": "Kelvin",
+            "aliases": ["K"],
+            "intermediate": false
+        },
+        {
+            "name": "k1",
+            "aliases": [],
+            "intermediate": true
+        },
+        {
+            "name": "k2",
+            "aliases": [],
+            "intermediate": true
+        }
+    ],
+    "conversions_scale": [
+        {
+            "from": "meter",
+            "to": "kilometer",
+            "factor": 0.001
+        },
+        {
+            "from": "Kelvin",
+            "to": "k1",
+            "factor": 1.0
+        },
+        {
+            "from": "k1",
+            "to": "k2",
+            "factor": 1.8
+        }
+    ],
+    "conversions_offset": [
+        {
+            "from": "meter",
+            "to": "Vietnamese Meter",
+            "offset": 0.025
+        },
+        {
+            "from": "Celsius",
+            "to": "Kelvin",
+            "offset": 273.15
+        },
+        {
+            "from": "Kelvin",
+            "to": "k1",
+            "offset": -273.15
+        },
+        {
+            "from": "k2",
+            "to": "Fahrenheit",
+            "offset": 32.0
+        }
+    ]
+}
