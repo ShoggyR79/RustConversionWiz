@@ -8,7 +8,7 @@ To install and run this tool, follow these steps:
 
 1. **Clone the Repository** (if applicable):
 ```
-git clone https://github.com/your-repository/temperature-conversion.git
+git clone https://github.com/ShoggyR79/RustConversionWiz.git
 cd temperature-conversion
 ```
 
